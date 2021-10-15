@@ -20,7 +20,7 @@
 <div class="card">
    <!--<h5 class="card-header">Featured</h5>-->
     <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
+      <h5 class="card-title">{{todo.Create_at}}</h5>
       <p class="card-text">{{todo.task}}</p>
       <a href="{% url 'update' pk=todo.pk %}" class="btn btn-primary">changes</a><span style="float: right;"><a href="{% url 'delete' pk=todo.pk %}"><button type="button" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="ARE YOU SURE DELETE">delete</button></a></span>
     </div>
