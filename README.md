@@ -1,3 +1,3 @@
 # Todo-app
 
-simple Todo application
+simple django Todo application
